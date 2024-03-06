@@ -1,0 +1,53 @@
+## Ignorar archivos binarios y de objetos
+bin/
+obj/
+out/
+
+## Ignorar archivos de configuración de Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+## Ignorar paquetes NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.csproj.DotSettings
+
+## Ignorar archivos de Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Ignorar archivos de la carpeta de compilación
+Build/
+
+## Ignorar archivos temporales
+*.tmp
+*.temp
+*.tlog
+*.log
+*.cache
+*.bak
+*.swp
+*~.nib
+local.properties
+
+## Ignorar archivos de la base de datos SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+## Ignorar archivos generados por herramientas de análisis de código
+Generated_Code/
+
+## Carpeta de paquetes NuGet (si no usas package restore)
+!.nuget/packages/
+
+## Herramientas de Visual Studio Code
+.history/
